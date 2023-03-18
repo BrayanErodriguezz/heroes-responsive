@@ -1,62 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heros</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
-    <header class="header-content">
-        <h2>Descuentos 20%</h2>
-    </header>      
-    <nav class="nav-bar">
-        <h1 class="nav-title">Card Super Heroes</h1>
-    </nav>
-
-    <main class="main-content">
-        <div class="main-container">
-        <section class="heros batman">
-          <article class="image-container"> <img src="./IMG/batman.png" class="batmanFace" alt="Batman face">
-            <i class="fa-solid fa-heart"></i>
-            <h3 class="batmanTitle">BATMAN</h3>
-            <p class="batmanP">Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing</p>
-            <a href="" class="button">Ver más</a>
-        </article>           
-        </section>
-
-        <section class="heros queen">
-            <article class="imageQueen-container"> <img src="./IMG/queen.png" class="queenFace" alt="Harley queen face">
-                <i class="fa-solid fa-heart"></i>
-                <h3 class="QueenTitle">Harley Queen</h3>
-                <p class="QueenP">La creación de Harley Queenn fue una idea de último minuto propuesta por el escritor estadounidense Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada </p>
-                <a href="" class="button">Ver más</a>
-            </article> 
-        </section>
-
-        <section class="heros queen">
-            <article class="imageQueen-container"> <img src="./IMG/queen.png" class="queenFace" alt="Harley queen face">
-                <i class="fa-solid fa-heart"></i>
-                <h3 class="QueenTitle">Harley Queen</h3>
-                <p class="QueenP">La creación de Harley Queenn fue una idea de último minuto propuesta por el escritor estadounidense Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada </p>
-                <a href="" class="button">Ver más</a>
-            </article> 
-        </section>
-
-        <section class="heros batman2">
-            <article class="image-container"> <img src="./IMG/batman.png" class="batmanFace" alt="Batman face">
-                <i class="fa-solid fa-heart"></i>
-                <h3 class="batmanTitle">BATMAN</h3>
-                <p class="batmanP">Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing</p>
-                <a href="" class="button">Ver más</a>
-            </article> 
-        </section>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Heroes Cards</title>
+  </head>
+  <body>
+    <header>
+      <div class="disccount-container">
+        <p>Descuentos 20%</p>
+      </div>
+      <nav class="nav-container">
+        <h1>Cards Super Heroes</h1>
+      </nav>
+    </header>
+    <main>
+        <div class="plus-container">
+        <a class="button-plus" href="" class="button">+</a></div>
+      <section class="cards-container">
+        <article class="box batman">
+          <div class="img-container">
+            <img
+              src="./IMG/batmanface.png"
+              alt="batman face"
+              class="batman-face"
+            />
+          </div>
+          <i class="fa-solid fa-heart"></i>
+            <h2>BATMAN</h2>
+          <p class="batmanP">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting
+          </p>
+          <div class="button-container">
+            <a class="button" href="" class="button">Ver más</a>
+          </div>
+        </article>
+        <article class="box maravilla">
+          <div class="mujer-container">
+            <img
+              src="./IMG/mujer-maravilla.png"
+              alt="mujer maravilla face"
+              class="mujer-face"
+            />
+          </div>
+          <i class="fa-solid fa-heart"></i>
+          <h2>Mujer Maravilla</h2>
+          <p class="mujerP">
+            Es una superheroína creada por William Moulton Marston para la
+            editorial DC Comics. Es una princesa guerrera de las Amazonas,
+            pueblo ficticio basado en el de las amazonas de la mitología griega.
+            En su tierra natal es conocida como la princesa Diana de Temiscira
+            pero fuera de esta utiliza la identidad secreta de Diana Prince.
+          </p>
+          <div class="button-container">
+            <a class="button" href="" class="button">Ver más</a>
+          </div>
+        </article>
+        <article class="box superman">
+          <div class="super-container">
+            <img
+              src="./IMG/superman.png"
+              alt="superman face"
+              class="superman-face"
+            />
+          </div>
+          <i class="fa-solid fa-heart"></i>
+          <h2>SUPERMAN</h2>
+          <p class="supermanP">
+            Es un superhéroe que apareció por primera vez en los cómics
+            estadounidenses publicados por DC Comics. El personaje fue creado
+            por el escritor estadounidense Jerry Siegel y el artista canadiense
+            Joe Shuster en 1933 cuando ambos se encontraban viviendo en
+            Cleveland, Ohio.
+          </p>
+          <div class="button-container">
+            <a class="button" href="" class="button">Ver más</a>
+          </div>
+        </article>
+        <article class="box quin">
+          <div class="quin-container">
+            <img src="./IMG/queen.png" alt="quin face" class="quin-face" />
+          </div>
+          <i class="fa-solid fa-heart"></i>
+          <h2>Harley Quinn</h2>
+          <p class="quinP">
+            Harley Quinn es un personaje ficticio creado por los estadounidenses
+            Paul Dini y Bruce Timm para la editorial DC Comics. Quinn hizo su
+            debut en el vigésimo-segundo episodio de Batman: la serie animada,
+            «El favor del Joker», en septiembre de 1992 y se convirtió en una
+            villana recurrente en la serie
+          </p>
+          <div class="button-container">
+            <a class="button" href="" class="button">Ver más</a>
+          </div>
+        </article>
+      </section>
     </main>
     <footer class="footer-container">
-       <p>Todos los derechos reservados a FRONT END 1</p> 
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <div class="logo-container">
+        <img src="./IMG/Vector.png" alt="Git Hub"></div>
+
     </footer>
-</body>
-</html> 
+  </body>
+</html>
