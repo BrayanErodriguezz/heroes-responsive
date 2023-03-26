@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/super.css" />
+    <title>Crea tu super</title>
+  </head>
+  <body>
+    <header>
+      <div class="disccount-container">
+        20% de descuento en todos los productos!
+      </div>
+      <div class="logo-container">
+        <img src="./IMG/Logo.png" alt="Logo">
+        <h1>Nombre Tienda</h1>
+      </div>
+      <nav class="nav-container">
+        <ul class="nav-bar">
+            <a href=""><li>Contacto</li></a>
+            <a href=""><li>Registrarme</li></a>
+            <a href=""><li>Ingresar</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="section-container">
+        <div class="title-container">
+            <h3>Añadí tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+        </div>
+        <form action="" class="form-container">
+          <fieldset class="form-part1">
+            <label for="name">
+              *Nombre
+              <input
+              class="name"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Ingresa un nombre"
+                required
+                minlength="5"
+              />
+            </label>
+            <label for="date" >
+              *Fecha
+              <input type="date" name="date" id="date" class="date" />
+            </label>
+            <textarea name="Description" id="description" cols="30" rows="10" placeholder="Descripcion" class="description"></textarea
+            >
+          </fieldset>
+          <fieldset class="form-part2">
+            <Label for="Especie">*Especie</Label>
+            <select name="Especie" id="Especie" class="especie" >
+                <optgroup label="Elemento" class="option">
+                    <option value="Agua" class="option">Agua</option>
+                    <option value="Fuego" class="option">Fuego</option>
+                    <option value="Aire" class="option">Aire</option>
+                    <option value="Tierra" class="option">Tierra</option>
+                </optgroup>
+            </select>
+            <label for="Foto" >Agregar Foto
+            <input type="file"
+            class="foto"
+            id="Foto"
+            name="Foto"
+            accept=".jpg, .png">
+        </label>
+            <label for="Poderes">Poderes</label>
+            <label for="volar"  class="poderes"><input type="checkbox" name="Poderes" value="volar" id="volar">Volar</label>
+            <label for="Superinteligencia"  class="poderes"><input type="checkbox" name="Poderes" value="Superinteligencia" id="Superinteligencia">Superinteligencia</label>
+            <label for="vista"  class="poderes"><input type="checkbox" name="Poderes" value="vista" id="vista">Vista de rayo láser</label>
+            <label for="Billetera"  class="poderes"><input type="checkbox" name="Poderes" value="Billetera" id="Billetera">Billetera Gorda</label>
+
+            <hr class="separate">
+
+            <label for="Personaje">Tipo de Personaje</label>
+            <label for="Heroe" class="personaje"><input type="radio" name="Personaje" value="Heroe" id="Heroe">Heroe / Heroina</label>
+            <label for="Villano" class="personaje"><input type="radio" name="Personaje" value="Villano" id="Villano">Villano / Vilana </label>
+
+          </fieldset>
+        </form>
+        <div class="button-container">
+        <a href="" class="add"> Añadir</a>
+      </section>
+    </main>
+    <footer class="footer-container">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <div class="logofoo-container">
+        <img src="./IMG/Vector.png" alt="Git Hub"></div>
+
+    </footer>
+  </body>
+</html>
