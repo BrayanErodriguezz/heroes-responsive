@@ -53,15 +53,15 @@
             </label>
             <label for="date" >
               *Fecha
-              <input type="date" name="date" id="date" class="date" />
+              <input type="date" name="date" id="date" class="date" required />
             </label>
             <textarea name="Description" id="description" cols="30" rows="10" placeholder="Descripcion" class="description"></textarea
             >
           </fieldset>
           <fieldset class="form-part2">
             <Label for="Especie">*Especie</Label>
-            <select name="Especie" id="Especie" class="especie" >
-                <optgroup label="Elemento" class="option">
+            <select name="Especie" id="Especie" class="especie" required>
+                <optgroup label="Elemento" class="option" >
                     <option value="Agua" class="option">Agua</option>
                     <option value="Fuego" class="option">Fuego</option>
                     <option value="Aire" class="option">Aire</option>
@@ -87,10 +87,10 @@
             <label for="Heroe" class="personaje"><input type="radio" name="Personaje" value="Heroe" id="Heroe">Heroe / Heroina</label>
             <label for="Villano" class="personaje"><input type="radio" name="Personaje" value="Villano" id="Villano">Villano / Vilana </label>
 
-          </fieldset>
+          </fieldset>        <div class="button-container"> 
+        <input type="submit" class="add" value="Añadir"> </div>
         </form>
-        <div class="button-container">
-        <a href="" class="add"> Añadir</a>
+
       </section>
     </main>
     <footer class="footer-container">

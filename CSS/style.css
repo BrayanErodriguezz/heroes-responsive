@@ -75,6 +75,10 @@ text-decoration: none;
   color: #f3f3f3;
 }
 
+.button-plus:hover{
+  background-color: #001D2D;
+}
+
 .cards-container {
   width: 100%;
   min-height: 1100px;

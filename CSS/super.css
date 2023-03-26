@@ -56,6 +56,11 @@
   text-decoration: none;
 }
 
+.nav-bar a:hover{
+  background-color: black;
+  color: red;
+}
+
 /*Main*/
 
 .main-container{
@@ -98,6 +103,7 @@
 
 .form-container{
   display: flex;
+  flex-wrap: wrap;
   color: #FFFFFF;
   justify-content: center;
   align-items: center;
@@ -124,6 +130,18 @@
   padding: 10px;
 }
 
+.name:focus, .description:focus, .date:focus{
+  background-color: lightgreen;
+  font-weight: 700;
+}
+
+.name:valid, .date:valid{
+  border: solid 2px green;
+}
+
+.name:invalid, .date:invalid{
+  border: solid 2px red;
+}
 
 .description{
   width: 100%;
@@ -133,6 +151,7 @@
   border: 0;
   padding: 10px;
   margin-top: 10px;
+  resize: none;
 }
 
 .form-part2{
@@ -177,6 +196,7 @@
 }
 
 .button-container{
+  width: 100%;
   display: flex;
   min-height: 150px;
   justify-content:center ;
@@ -197,6 +217,11 @@
   border-radius: 10px;
   border: 0;
   background-color: #1CD1B0;
+}
+
+.add:hover{
+  background-color: #001D2D;
+  color: #FFFFFF;
 }
 
 /*footer*/
