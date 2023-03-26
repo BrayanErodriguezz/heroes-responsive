@@ -229,6 +229,12 @@
 }
 
 @media screen and (max-width: 800px) {
+
+  .section-container{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+   }
+
   .nav-container{
     justify-content: center;
   }
@@ -243,4 +249,19 @@
   .form-part2{
     width: 80%;
   }
+}
+
+@media screen and (max-width: 530px) {
+ .section-container{
+  margin-top: 50px; ;
+ }
+
+ .title-container h3{
+  font-size: 3rem;
+ }
+
+ .title-container p{
+  font-size: 1.5rem;
+  padding-left: 10px;
+ }
 }
